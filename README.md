@@ -24,3 +24,6 @@ If any of the `assert` statements fail then GHDL will cease the simulation and e
 Assert statements of other severity levels will be reported, but not fail the workflow.
 
 ![ECE281-ICE3-Waveform-RippleAdder](ECE281-ICE3-Waveform.png)
+
+Documentation:
+No help was received.
