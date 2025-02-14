@@ -51,7 +51,7 @@ begin
         B     => B(2),
         Cin   => w_carry(1),   -- Directly to input here
         S     => S(2),
-        Cout  => w_carry(0)
+        Cout  => w_carry(2)
     );
     full_adder_3: full_adder
     port map(
@@ -59,7 +59,7 @@ begin
         B     => B(3),
         Cin   => w_carry(2),
         S     => S(3),
-        Cout  => w_carry(3)
+        Cout  => Cout
     );
 
 end Behavioral;
